@@ -7,7 +7,7 @@ How this application works:
 - handleClick function makes a request to the Github API, asking for user data for the username sent to it.
 - handleClick waits for data to come back from Github using a Promise.
 - handleClick updates the username attribute on state with the name returned from the Github API.
-- <p> tag displays whatever this.state.username is. When the button has not been clicked, it will return an empty string, but once the button has been clicked and the request has been completed, it will show the user’s name.
+- paragraph tag displays whatever this.state.username is. When the button has not been clicked, it will return an empty string, but once the button has been clicked and the request has been completed, it will show the user’s name.
 
 ![App](./img/RequestPart3.png "Github Requester App")
 
